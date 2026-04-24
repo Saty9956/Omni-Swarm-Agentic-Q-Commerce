@@ -338,7 +338,7 @@ Deploy Streamlit publicly.
 
 # 👨‍💻 Author
 
-**Satyartha Shukla**
+**Satyartha Shukla** //
 AI Engineer • LLM Systems • Multi-Agent AI • Applied ML
 
 ---
