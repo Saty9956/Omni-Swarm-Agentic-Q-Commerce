@@ -1,0 +1,5 @@
+networkx        # For building the mathematical city grid
+osmnx           # (Optional later) For pulling real Bangalore street maps
+matplotlib      # For visualizing our city and agents
+pandas          # For data handling
+numpy           # For traffic math
