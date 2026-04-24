@@ -139,6 +139,7 @@ Total Bill =
 Cart Value
 + Distance Fee
 + Surge Fee
++ Small Order Fee (if Cart Value < ₹199)
 ```
 
 Surges may include:
@@ -166,18 +167,24 @@ Profit =
 20% Product Margin
 + Delivery Fee Spread
 + Surge Spread
++ Small Order Fee
 - Rider Payout
 ```
 
 ---
 
-## ⚠️ Small Order Bleed
+## ⚠️ Low Margin Orders
 
-The simulator identifies situations where:
+The simulator identifies situations where margins can still tighten when:
 
-* Cart value is low
-* Delivery is free
-* Rider cost is high
+* Delivery distance is high
+* Traffic cost increases rider payout pressure
+* Low basket value reduces product margin contribution
+
+Even with a small-order fee, some deliveries may remain less profitable depending on operational conditions.
+
+---
+
 
 Result:
 
